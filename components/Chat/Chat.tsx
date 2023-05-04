@@ -355,19 +355,17 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             Welcome to Chatbot UI
           </div>
           <div className="text-center text-lg text-black dark:text-white">
-            <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
+            <div className="mb-8">{`Gnoomi excels in intelligent and context driven conversation`}</div>
             <div className="mb-2 font-bold">
-              Important: Chatbot UI is 100% unaffiliated with OpenAI.
+              Important: Gnoomi is still under development so hallucinations might occur in 3-5% of cases.
             </div>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="mb-2">
-              Chatbot UI allows you to plug in your API key to use this UI with
-              their API.
+              The Gnoomi playground allows you to plug in your API key to test the assistant.
             </div>
             <div className="mb-2">
-              It is <span className="italic">only</span> used to communicate
-              with their API.
+              We are <span className="italic">only</span> focusing on launch categories at the moment.
             </div>
             <div className="mb-2">
               {t(
